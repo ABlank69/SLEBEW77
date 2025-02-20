@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+/* Login Page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('slot-background.jpg'); /* Gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Menggelapkan background untuk kontras lebih baik */
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Background hitam transparan */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 320px;
+}
+
+.login-box h2 {
+    color: #ffcc00;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 16px;
+    color: #ff9900;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.textbox {
+    margin: 15px 0;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.textbox input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+.btn-login {
+    background-color: #ffcc00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.btn-login:hover {
+    background-color: #e6b800;
+}
+
+.login-links a {
+    color: #ff9900;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
